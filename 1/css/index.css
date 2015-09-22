@@ -109,7 +109,6 @@ p {
     line-height: 1.6;
     margin-bottom: 20px;
 }
-
 /****************
 Interior Pages
 ****************/
@@ -133,7 +132,7 @@ Interior Pages
     background-color: #58C9EB;
 }
 .style-1.wave-border {
-    background: #58C9EB url('../images/wave.jpg') repeat-x 0 0;
+    background: #58C9EB url('images/wave.jpg') repeat-x 0 0;
 }
 .content-block .figure {
     float: left;
