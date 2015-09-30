@@ -264,10 +264,63 @@ Go Premium
 }
 
 /****************
+nav
+****************/
+nav {
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+nav figure {
+    position: absolute;
+    top: -20px;
+    left: 50px;
+}
+nav img {
+    width: 160px;
+}
+.primary-nav {
+    float: right;
+}
+.primary-nav > li {
+    float: left;
+}
+.primary-nav > li > a {
+    float: left;
+    padding: 25px 0;
+    width: 150px;
+    border-left: 1px solid #ada791;
+}
+.primary-nav > li:first-child > a {
+    border-left: none;
+}
+nav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #766e65;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    -webkit-transition: 0.15s background-color linear;
+    -moz-transition: 0.15s background-color linear;
+    -o-transition: 0.15s background-color linear;
+    transition: 0.15s background-color linear;
+}
+nav li a:focus,
+nav li a:hover,
+nav li a.active {
+    background-color: #eb2428;
+    color: #fff;
+}
+
+/****************
 Interior Pages
 ****************/
 .intro-content {
     padding-bottom: 80px;
+    margin-top: 125px;
 }
 
 .content-block {
